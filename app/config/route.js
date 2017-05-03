@@ -7,6 +7,7 @@ module.exports = function($routeProvider, $locationProvider) {
   });
   $routeProvider.when('/user/:name', {
     templateUrl: 'static/view/user-profile-page.html',
+    controller: 'UserProfileController',
   });
   $routeProvider.when('/user/:name/posts/:title', {
     templateUrl: 'static/view/user-post-page.html',

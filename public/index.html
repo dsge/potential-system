@@ -1,10 +1,18 @@
 <html>
     <head>
+        <base href="/">
         <meta name="viewport" content="width=device-width, user-scalable=no">
         <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-
+        <script src="compiled/app.js"></script>
     </head>
-    <body>
+    <body ng-app="myApp">
+        <div>
+            <a href="/#!/login">Login</a> |
+            <a href="/#!/register">Register</a> |
+            <a href="/#!/user/gaben">Gabe Newell's Profile</a> |
+            <a href="/#!/user/gaben/posts/half-life-3">Gabe Newell's Latest Post</a> |
+        </div>
 
+        <div ng-view></div>
     </body>
 </html>

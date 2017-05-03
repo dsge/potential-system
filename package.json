@@ -17,7 +17,8 @@
   },
   "homepage": "https://github.com/dsge/potential-system#readme",
   "dependencies": {
-    "angular": "^1.6.4"
+    "angular": "^1.6.4",
+    "angular-route": "^1.6.4"
   },
   "devDependencies": {
     "grunt": "^1.0.1",

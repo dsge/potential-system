@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/dsge/potential-system/issues"
   },
-  "homepage": "https://github.com/dsge/potential-system#readme"
+  "homepage": "https://github.com/dsge/potential-system#readme",
+  "dependencies": {
+    "angular": "^1.6.4"
+  }
 }

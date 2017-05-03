@@ -18,5 +18,11 @@
   "homepage": "https://github.com/dsge/potential-system#readme",
   "dependencies": {
     "angular": "^1.6.4"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-webpack": "^1.0.18",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.15.2"
   }
 }
